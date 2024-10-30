@@ -1,0 +1,66 @@
+body{
+    background-color: turquoise;
+}
+.maindiv{
+    background-color: rgb(66, 169, 159);
+    width:40%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+button{
+    background-color: blueviolet;
+    color: antiquewhite;
+        padding: 5px;
+        margin-left: 20px;
+}
+    button:hover{
+        background-color: azure;
+        color: rgb(85, 55, 15);
+    }
+
+.btnaln{
+    margin-left: 50px;
+    padding: 10px;
+}
+        ol {
+    
+            width: 80%;
+            color: bisque;
+            font-size: larger;
+            font-weight: bold;
+        }
+    
+        p {
+            text-align: start;
+        }
+input{
+    padding: 5px;
+    width: 40%;
+    height:30px ;
+    font-size: 1em;
+}
+@media screen and (max-width: 480px) {
+    .maindiv{
+        margin-top: 40px;
+        padding: 5px;
+        font-size: 14px;
+        width:90%;
+    }
+    button{
+        font-size: 10px;
+        width:fit-content;
+    }
+    ol{
+       
+        width: 80%;
+        color: bisque;
+        font-size: larger;
+    font-weight: bold;
+    }
+    p{
+    text-align: start;
+    }
+
+}
