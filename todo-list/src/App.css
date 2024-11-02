@@ -20,13 +20,13 @@ button{
         color: rgb(85, 55, 15);
     }
 
-.btnaln{
+/* .btnaln{
     margin-left: 50px;
     padding: 10px;
-}
+} */
         ol {
     
-            width: 80%;
+            width: 90%;
             color: bisque;
             font-size: larger;
             font-weight: bold;
@@ -49,18 +49,10 @@ input{
         width:90%;
     }
     button{
-        font-size: 10px;
-        width:fit-content;
+        font-size: 14px;
     }
     ol{
-       
-        width: 80%;
-        color: bisque;
-        font-size: larger;
-    font-weight: bold;
-    }
-    p{
-    text-align: start;
-    }
+        width: 90%;
 
+    }
 }
